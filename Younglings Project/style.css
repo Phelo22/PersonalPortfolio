@@ -1,0 +1,221 @@
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("./background2.jpg");
+    background-size: cover;
+}
+.main-nav{
+
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    /* border: 1px solid white; */
+
+}
+
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+}
+li a:hover{
+    background:palevioletred;
+    font-weight: bold;
+}
+
+}
+.main-nav li.active a {
+    
+        border: 1px solid white;
+}
+
+.rounded{
+    display: inline-flex;
+    margin-top: 60px;
+    font-size: 20px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    /* border: 1px solid white; */
+    padding: 50px;
+}
+
+.rounded img {
+    border-radius: 50%; 
+    height: 300px;
+}
+
+.heading{
+    width: 60%;
+    margin-left: 120px;
+    text-align: center;
+}
+
+.heading p{
+    text-align: left;
+}
+.heading{
+    color: white;
+    font-size: medium;  
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.paragraph{
+    color: white;
+    position: absolute;
+    font-size: larger;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 25px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+.experience{
+    right: 30%;
+    bottom: 90%;
+    font-size: 15px;  
+    color: white;
+    line-height: 25px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+
+}
+.Goals{
+    right: 30%;
+    bottom: 90%;
+    font-size: 15px;  
+    color: white;
+    line-height: 25px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.education{
+    right: 30%;
+    bottom: 80%;
+    font-size: 15px;  
+    color: white;
+    line-height: 25px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.Skills{
+    right: 30%;
+    bottom: 80%;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;  
+    color: white;
+    line-height: 25px;
+}
+
+.website{
+    text-align: left;
+    margin-left: 10px;
+    padding-bottom: 10px;    
+}
+.Mzamomtsha{
+    color: white;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+}
+.website-line{
+    margin-top: 40px;
+}
+
+.website img{
+    margin-top: 75px;
+    height: 200px;
+    text-align: left;
+}
+h6{
+    text-align: center;
+    font-size: 15px;
+    right: 80%;
+    bottom: 10%;
+   
+}
+h5{
+    text-align: center;
+    font-size: 30px;
+    right: 80%;
+    bottom: 10%;
+   
+}
+p{
+    text-align: center;
+    right: 80%;
+    bottom: 10%;
+    color: white;
+    line-height: 25px;
+}
+
+i{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.Icons {
+    list-style: none;
+    display: inline-block;
+    border-bottom:white;
+}
+
+.icon-list {
+    text-align: center;
+}
+
+.home-line {
+    width: 40%;
+    text-align: center;
+}
+
+.work-line {
+    width: 80%;
+    text-align: center;
+}
+
+.form{
+color: white;
+width: 40%;
+}
+
+input[type='text'] {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.068);
+    color: white;
+}
+
+input[type='submit'] {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    height: 50px;
+}
+
+.contact-form{
+    display: flex;
+    padding-top: 50px;
+
+}
+
+.contact{
+    /* border: 2px solid white; */
+    margin-left: 300px;
+    text-align: center;
+    color: white;
+}
+  
+
+
+
+
